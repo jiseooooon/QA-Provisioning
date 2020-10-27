@@ -5,7 +5,6 @@ resource "aws_instance" "terraform-test" {
   vpc_security_group_ids = ["sg-02db55411a5e10dff"]
   subnet_id="subnet-1af11756"
   tags = {
-    Name = "QA - Ansible / Terraform" 
-"
+    Name = "QA - Ansible / Terraform"
   }
 }
